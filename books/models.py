@@ -7,7 +7,7 @@ class Book(models.Model):
     description = models.CharField(max_length=250)
     publisher = models.CharField(max_length=250)
     image = models.CharField(max_length=250)
-    status = models.ManyToManyField(max_length=250)
+    status = models.CharField(max_length=250)
 
 
     class Meta:
